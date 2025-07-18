@@ -1,7 +1,7 @@
 # Batch-Render-Tool-Script
 A simple and efficient tool for batch rendering multiple Write nodes in Nuke with custom order and format control.
 
-### Features
+**Features**:
 
 - Select and batch render multiple Write nodes  
 - Set custom execution order for rendering  
@@ -11,7 +11,7 @@ A simple and efficient tool for batch rendering multiple Write nodes in Nuke wit
 - Validates user inputs to avoid errors  
 - Displays render times for each Write node  
 
-### Usage
+#### **Usage**:
 
 1. Run the script in Nuke's Script Editor  
 2. Select which Write nodes to render and assign their order  
@@ -19,13 +19,13 @@ A simple and efficient tool for batch rendering multiple Write nodes in Nuke wit
 4. Click **Validate**, then confirm to start rendering  
 5. Review render time summary when finished  
 
-### Installation
+#### **Installation**:
 
 1. **Download** the script file from this repository  
 2. **Rename** the script file to `batch_render_tool.py` (required for proper importing)  
 3. Place it in your Nuke scripts folder (e.g., `~/.nuke/`)
    
-#### Adding to Nuke Menu
+Adding to Nuke Menu:
 
 1. Open or create `menu.py` in your `~/.nuke/` directory  
 2. Add the following lines:
